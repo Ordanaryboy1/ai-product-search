@@ -1,4 +1,4 @@
-## ai-product-search
+# ai-product-search
 
 ## Overview
 
@@ -62,7 +62,7 @@ PORT=5000
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=your_password
-DB_NAME=product_search
+DB_NAME=productsearch
 
 JWT_SECRET=your_secret_key
 ```
@@ -72,9 +72,9 @@ JWT_SECRET=your_secret_key
 ### 4. Setup Database
 
 ```
-CREATE DATABASE product_search;
-USE product_search;
-SOURCE database.sql;
+CREATE DATABASE productsearch;
+USE productsearch;
+SOURCE product.sql;
 ```
 
 ---
@@ -153,6 +153,7 @@ Authorization: Bearer YOUR_TOKEN
 * `/api/search?q=cheap mobile`
 * `/api/search?q=red shoes`
 * `/api/search?q=mobile with battery`
+
 
 ---
 
